@@ -1,0 +1,22 @@
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-white;
+}
+
+html,
+body {
+  font-family: $font-family-regular;
+  font-size: $font-16;
+
+  background: $color-white;
+  overflow-x: hidden;
+}
+
+.container {
+  @include container ();
+}
+
+

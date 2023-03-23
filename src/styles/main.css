@@ -1,0 +1,108 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+@font-face {
+  font-family: Gilroy-Thin;
+  src: url(../Fonts/Gilroy-Thin.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: Gilroy-Light;
+  src: url(../Fonts/Gilroy-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url(../Fonts/Gilroy-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(../Fonts/Gilroy-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Gilroy-SemiBold;
+  src: url(../Fonts/Gilroy-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: Gillroy-Bold;
+  src: url(../Fonts/Gilroy-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Gilroy-Black;
+  src: url(../Fonts/Gilroy-Black.ttf);
+  font-weight: 900;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+html,
+body {
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  background: white;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1676px;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */
