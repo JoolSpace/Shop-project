@@ -103,6 +103,242 @@ body {
 }
 
 .container {
-  max-width: 1676px;
+  max-width: 1280px;
   margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-bottom__link:hover {
+  border-bottom: none;
+}
+
+input {
+  border: none;
+  width: 460px;
+  border-bottom: 1px solid #828282;
+}
+
+.btn {
+  margin-top: 45px;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  color: #ffffff;
+  width: 200px;
+  height: 40px;
+  background: linear-gradient(#ff469f, #ff6062);
+}
+
+.product {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product__item {
+  width: 25%;
+  padding: 1rem;
+  text-align: center;
+  margin: 5px;
+  background-color: #fbeaf4;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.product__image {
+  width: 80%;
+}
+.product__title {
+  padding: 1rem;
+  font-size: 14px;
+  font-weight: 700;
+}
+.product__description {
+  font-size: 12px;
+}
+
+.product2 {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product2__item {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  margin: 5px;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.product2__image {
+  width: 100%;
+}
+.product2__title {
+  padding: 1rem;
+  font-size: 14px;
+  font-weight: 700;
+}
+.product2__description {
+  font-size: 12px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 121px 14px 121px;
+  width: 100%;
+  height: 49px;
+  background-color: black;
+  color: white;
+}
+.header-select {
+  width: 70px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-style: Gilroy-Regular;
+  font-weight: 400;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.header-select:hover {
+  transition: all 0.3s;
+  color: #D785A1;
+}
+.header-select__img {
+  cursor: pointer;
+  position: absolute;
+}
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.header-bottom__logo {
+  margin-right: 2rem;
+}
+.header-bottom__lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37px 0 23px 0;
+}
+.header-bottom__list {
+  padding-right: 1.5rem;
+}
+.header-bottom__link {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+.header-bottom__link:hover {
+  transition: all 0.3s;
+  border-bottom: 1px solid;
+  color: #D785A1;
+}
+.header-bottom__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-1 {
+  height: 553px;
+  background: center/contain no-repeat url("../img/bg.png");
+  background-size: 100%;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 99px;
+}
+
+.title-description {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.text-description {
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+.text-description__link {
+  text-decoration: none;
+  color: #D785A1;
+}
+
+.block-description {
+  padding: 90px 275px 320px 275px;
+}
+
+.section__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section__block_description {
+  margin-top: 68px;
+  margin-left: 30px;
+}
+
+.main {
+  justify-content: start;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0;
+  margin-top: 25px;
+  background-color: #F3F3F3;
+}
+.footer-logo {
+  margin-bottom: 16px;
+}
+.footer-text {
+  margin-bottom: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #828282;
+}
+.footer-descr {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #828282;
+}
+.footer-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+.footer-link {
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer-link:hover {
+  color: #D785A1;
+  transition: all 0.3s;
+}
+
+.social {
+  display: flex;
+}
+.social-list {
+  padding: 5px 5px 5px 0;
 }/*# sourceMappingURL=main.css.map */

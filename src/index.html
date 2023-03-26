@@ -8,20 +8,327 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="styles/main.css">
   <title>Skindom</title>
 </head>
+
 <body>
-  <p class="ki">Бальзам-ополаскиватель содержит полезные белки и минералы, укрепляющие все слои волосяной структуры от корней до кончиков волос, сохраняя их живыми и блестящими даже после химического воздействия. Восстанавливает pH-баланс волос и кожи головы, обеспечивает защиту</p>
+
+  <header class="header">
+    <div class="header-top">
+      <div class="header-top__dropdown">
+      <select class="header-select">
+        <option value="Volgograd">Волгоград</option>
+        <option value="Yekaterinburg">Екатеринбург</option>
+        <option value="Kazan">Казань</option>
+        <option value="Moscow">Москва</option>
+        <option value="Nizhny Novgorod">Нижний Новгород</option>
+        <option value="Novosibirsk">Новосибирск</option>
+        <option value="Rostov-na-Don">Ростов-на-Дону</option>
+        <option value="Samara">Самара</option>
+        <option value="Petersburg">Санкт-Петербург</option>
+        <option value="Saratov">Саратов</option>
+        <option value="Khabarovsk">Хабаровск</option>
+        <option value="Chelyabinsk">Челябинск</option>
+      </select>
+      <img class="header-select__img" src="img/icons/chevron_down.png" alt="">
+    </div>
+      <div class="header-phone">
+        8 495 259 25 00
+      </div>
+    </div>
 
 
+    <div class="header-bottom">
+      <div class="header-bottom__block">
+      <div class="header-bottom__logo">
+        <a href="#"><img src="img/icons/logo.png" alt=""></a>
+      </div>
+      <ul class="header-bottom__lists">
+        <li class="header-bottom__list"><a href="pages/catalog.html" class="header-bottom__link link">Каталог</a></li>
+        <li class="header-bottom__list"><a href="pages/club.html" class="header-bottom__link link">Клуб косметологов</a></li>
+        <li class="header-bottom__list"><a href="#" class="header-bottom__link link">Сертификаты</a></li>
+        <li class="header-bottom__list"><a href="pages/delivery.html" class="header-bottom__link link">Доставка и оплата</a></li>
+        <li class="header-bottom__list"><a href="pages/contacts.html" class="header-bottom__link link">Контакты</a></li>
+        <li class="header-bottom__list"><a href="pages/blog.html" class="header-bottom__link link">Блог</a></li>
+      </ul> 
+    </div>
+
+      <ul class="header-bottom__lists">
+        <li class="header-bottom__list"><a href="#" class="header-bottom__link social"><img src="img/icons/icon search.png" alt="search" class="header-bottom__img"></a></li>
+        <li class="header-bottom__list"><a href="" class="header-bottom__link"><img src="img/icons/heart.png" alt="heart" class="header-bottom__img"></a></li>
+        <li class="header-bottom__list"><a href="" class="header-bottom__link"><img src="img/icons/shape.png" alt="shape" class="header-bottom__img"></a></li>
+        <li class="header-bottom__list"><a href="" class="header-bottom__link"><img src="img/icons/icon profile.png" alt="" class="header-bottom__img"></a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <section class="section section-1">
+      <div class="block-description">
+      <h1 class="title">SKINDOM</h1>
+      <h2 class="title-description">Специальные цены только до 30 апреля</h2>
+      <button class="btn" type="button">Перейти в каталог</button>
+      </div>
+    </section>
+
+    <section class="section section-2 container">
+      <div class="section__block">
+        <div class="section__block_description">
+          <img src="img/Rectangle 7.png" alt="" width="784px" height="357px">
+        </div>
+
+        <div class="section__block_description">
+          <h2 class="title-description">Ведущий эксперт на российском рынке профессиональной косметики из Кореи—ККshop™</h2>
+          <p class="text-description">Мы делаем мир профессиональной корейской косметики доступным для каждого косметолога в России, предоставляя возможность работать с лучшими достижениями корейских учёных и специалистов в области сохранения здоровья и ухода за кожей</p>
+          
+          <a class="text-description__link" href="#">Подробнее</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-3 container">
+      <h2 class="title-description">Новинки</h2>
+
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="product">
+              <div class="product__item">
+                <img src="img/Photo1.png" class="product__image" alt="">
+                <h3 class="product__title">SLIMMING GEL BODY</h3>
+                <p class="product__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia voluptates earum non laudantium nam at fuga doloremque magni molestiae dolores?</p>
+              </div>
+              <div class="product__item">
+                <img src="img/Photo2.png" class="product__image" alt="">
+                <h3 class="product__title">SLIMMING GEL BODY</h3>
+                <p class="product__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia voluptates earum non laudantium nam at fuga doloremque magni molestiae dolores?</p>
+              </div>
+              <div class="product__item">
+                <img src="img/Photo3.png" class="product__image" alt="">
+                <h3 class="product__title">SLIMMING GEL BODY</h3>
+                <p class="product__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia voluptates earum non laudantium nam at fuga doloremque magni molestiae dolores?</p>
+              </div>
+              <div class="product__item">
+                <img src="img/Photo4.png" class="product__image" alt="">
+                <h3 class="product__title">SLIMMING GEL BODY</h3>
+                <p class="product__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia voluptates earum non laudantium nam at fuga doloremque magni molestiae dolores?</p>
+              </div>                      
+            </div>
+          </div>
+        </div>
+        <div class="swipper-scrollbar"></div>
+      </div>
+    </section>
+
+    <section class="section section-4">
+      <h2 class="title-description container">Акционные товары</h2>
+
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="product2">
+              <div class="product2__item">
+                <img src="img/image 12.png" class="product2__image" alt="">
+                <h3 class="product2__title">R&B Black Food 3.7</h3>
+                <p class="product2__description">Бальзам-ополаскиватель для волос с экстрактами 3 черных семян и 7 черных плодов</p>
+              </div>
+              <div class="product2__item">
+                <img src="img/image 12.png" class="product2__image" alt="">
+                <h3 class="product2__title">R&B Black Food 3.7</h3>
+                <p class="product2__description">Бальзам-ополаскиватель для волос с экстрактами 3 черных семян и 7 черных плодов</p>
+              </div>
+              <div class="product2__item">
+                <img src="img/image 12.png" class="product2__image" alt="">
+                <h3 class="product2__title">R&B Black Food 3.7</h3>
+                <p class="product2__description">Бальзам-ополаскиватель для волос с экстрактами 3 черных семян и 7 черных плодов</p>
+              </div>
+                                    
+            </div>
+          </div>
+        </div>
+        <div class="swipper-scrollbar"></div>
+      </div>
+
+      <section class="section section-5 container">
+        <h2 class="title-description">Рекомендуемые товары</h2>
+  
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="product">
+                <div class="product__item">
+                  <img src="img/Photo1.png" class="product__image" alt="">
+                  <h3 class="product__title">SLIMMING GEL BODY</h3>
+                  <p class="product__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia voluptates earum non laudantium nam at fuga doloremque magni molestiae dolores?</p>
+                </div>
+                <div class="product__item">
+                  <img src="img/Photo6.png" class="product__image" alt="">
+                  <h3 class="product__title">SLIMMING GEL BODY</h3>
+                  <p class="product__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia voluptates earum non laudantium nam at fuga doloremque magni molestiae dolores?</p>
+                </div>
+                <div class="product__item">
+                  <img src="img/Photo1.png" class="product__image" alt="">
+                  <h3 class="product__title">SLIMMING GEL BODY</h3>
+                  <p class="product__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia voluptates earum non laudantium nam at fuga doloremque magni molestiae dolores?</p>
+                </div>
+                <div class="product__item">
+                  <img src="img/Photo5.png" class="product__image" alt="">
+                  <h3 class="product__title">SLIMMING GEL BODY</h3>
+                  <p class="product__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia voluptates earum non laudantium nam at fuga doloremque magni molestiae dolores?</p>
+                </div>                      
+              </div>
+            </div>
+          </div>
+          <div class="swipper-scrollbar"></div>
+        </div>
+      </section>
+
+      <section class="section section-5 container">
+        <div class="section__block main">
+          <div class="section__block_description">
+            <img src="img/Rectangle 34.png" alt="" width="432px" height="247px">
+          </div>
+  
+          <div class="section__block_description">
+            <h2 class="title-description">Подпишитесь на рассылку</h2>
+            <p class="text-description">Узнай первым о старте скидок и специальных предложений!</p>
+            <input type="text" placeholder="Введите почту">
+            <br>
+
+            <button class="btn" type="button">Подписаться</button>
+          </div>
+        </div>
+
+      </section>
+
+</main>
+
+  <footer class="footer">
+    <div class="footer-block">
+      <div class="footer-block__contacts">
+      <img class="footer-logo" src="img/icons/logo.png" alt="logo">
+      <h2 class="footer-text">8 495 259 25 00 <br><br>
+        Sale@kkshop.ru</h2>
+        <p class="footer-descr">Москва, ул. Шаболовка, д. 34, стр. 7</p>
+      </div>
+
+      <div class="footer-title">
+        <h3>Каталог</h3>
+        <ul class="footer-lists">
+          <li class="footer-list">
+          <a class="footer-link" href="#">Очищение</a>
+        </li>
+          <li class="footer-list">
+          <a class="footer-link" href="#">Пилинги и скрабы</a>
+          </li>
+          <li class="footer-list">
+          <a class="footer-link" href="#">Тоники</a>
+          </li>
+          <li class="footer-list">
+          <a class="footer-link" href="#">Кремы</a>
+          </li>
+          <li class="footer-list">
+          <a class="footer-link" href="#">Концентраты</a>
+          </li>
+          <li class="footer-list">
+          <a class="footer-link" href="#">Концентраты с ферментами
+          </a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Сыворотки</a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Эссенции</a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Эмульсии и гели
+          </a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Маски для лица</a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Жемчужная линия</a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Уход за телом
+          </a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Уход за волосами
+          </a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Наборы и аксессуары</a>
+        </li>
+      </ul>
+      </div>
+     
 
 
+      <div class="footer-title">
+        <h3>Информация</h3>
+        <ul class="footer-lists">
+          <li class="footer-list">
+          <a class="footer-link" href="#">Клуб косметологов
+          </a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Сертификаты
+          </a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Доставка и Оплата
+          </a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Конфиденциальность</a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Контакты
+          </a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Блог
+          </a>
+        </li>
+        <li class="footer-list">
+          <a class="footer-link" href="#">Возврат</a>
+        </li>
+        </ul>
+      </div>
+      <div class="footer-title">
+        <h3>Мы в социальных сетях</h3>
+        
+        <ul class="social">
+          <li class="social-list">
+            <img src="img/icons/facebook.png" alt="">
+          </li>
+          <li class="social-list">
+            <img src="img/icons/instagramm.png" alt="">
+          </li>
+          <li class="social-list">
+            <img src="img/icons/ok.png" alt="">
+          </li>
+          <li class="social-list">
+            <img src="img/icons/telegramm.png" alt="">
+          </li>
+          <li class="social-list">
+            <img src="img/icons/vk.png" alt="">
+          </li>
+          <li class="social-list">
+            <img src="img/icons/watsapp.png" alt="">
+          </li>
+          <li class="social-list">
+            <img src="img/icons/viber.png" alt="">
+          </li>
+          
+        </ul>
+    
+  </div>
 
-
-
-
-
+  </footer>
 
 
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>

@@ -19,4 +19,18 @@ body {
   @include container ();
 }
 
+.link {
+  text-decoration: none;
+}
+
+.header-bottom__link:hover {
+  border-bottom: none;
+}
+
+input {
+  border: none;
+  width: 460px;
+  border-bottom: 1px solid $color-gray;
+}
+
 

@@ -1,0 +1,43 @@
+.section-1 {
+  height: 553px;
+  background: center / contain no-repeat url("../img/bg.png");
+  background-size: 100%;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 99px;
+  }
+
+  .title-description {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 24px;
+  }
+  .text-description {
+    margin-top: 10px;
+    margin-bottom: 24px;
+
+    &__link {
+    text-decoration: none;
+    color: $color-pink;
+    }
+  }
+  
+  .block-description {
+    padding: 90px 275px 320px 275px;
+  }
+
+  .section__block {
+    @include flex();
+
+    &_description {
+      margin-top: 68px;
+      margin-left: 30px;
+    }
+  }
+
+ .main {
+  justify-content: start;
+ } 
+ 
