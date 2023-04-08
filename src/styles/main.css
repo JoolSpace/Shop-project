@@ -121,6 +121,40 @@ input {
   border-bottom: 1px solid #828282;
 }
 
+.card {
+  border: none;
+}
+
+.center {
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.card-block {
+  width: 400px;
+  height: 340px;
+}
+
+.card-block:hover {
+  transition: 0.3s;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(77, 34, 104, 0.4);
+  cursor: pointer;
+}
+
+.head-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.head-title {
+  margin-top: 150px;
+}
+
 .btn {
   margin-top: 45px;
   font-weight: 400;
@@ -132,6 +166,33 @@ input {
   width: 200px;
   height: 40px;
   background: linear-gradient(#ff469f, #ff6062);
+}
+
+.btn_fixed {
+  position: fixed;
+  bottom: 2rem;
+  left: 0;
+  margin-left: 15px;
+  padding: 10px 20px;
+  z-index: 10;
+  text-align: center;
+  background-color: #915167;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  font-size: 12px;
+}
+
+.btn_fixed:hover {
+  cursor: pointer;
+  background: #D785A1;
+  transition: 0.3s;
+  box-shadow: 0 5px 10px rgba(77, 34, 104, 0.4);
+  transform: translateY(-3px);
+}
+
+.swiper {
+  z-index: 0;
 }
 
 .product {
@@ -159,6 +220,7 @@ input {
 }
 .product__description {
   font-size: 12px;
+  padding: 0 2px;
 }
 
 .product2 {
@@ -187,6 +249,12 @@ input {
   font-size: 12px;
 }
 
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -198,7 +266,7 @@ input {
   color: white;
 }
 .header-select {
-  width: 70px;
+  width: 82px;
   background-color: black;
   border: none;
   color: white;
@@ -231,7 +299,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 37px 0 23px 0;
+  padding: 15px 0 9px 0;
 }
 .header-bottom__list {
   padding-right: 1.5rem;
@@ -255,7 +323,7 @@ input {
 .section-1 {
   height: 553px;
   background: center/contain no-repeat url("../img/bg.png");
-  background-size: 100%;
+  margin-top: 100px;
 }
 
 .title {
@@ -294,6 +362,87 @@ input {
 
 .main {
   justify-content: start;
+}
+
+.catalog-lists {
+  flex-wrap: wrap;
+}
+
+.catalog-list {
+  margin-bottom: 25px;
+}
+
+.card-title {
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.card-price {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.section_1 {
+  margin-top: 40px;
+}
+
+@media (max-width: 1600px) {
+  .block-description {
+    padding: 99px 0 0 84px;
+  }
+  .section-1 {
+    margin-top: 102px;
+  }
+}
+@media (max-width: 1200px) {
+  .section-1 {
+    margin-top: 34px;
+  }
+  .title {
+    font-size: 80px;
+  }
+  .card-block {
+    width: 373px;
+  }
+  .header-bottom__img2 {
+    width: 300px;
+  }
+}
+@media (max-width: 1200px) {
+  .title {
+    font-size: 70px;
+  }
+  .block-description {
+    padding: 118px 0 0 72px;
+  }
+  .header-bottom__link {
+    font-size: 16px;
+  }
+  .header-bottom__list {
+    padding-right: 18px;
+  }
+  .section__block__img {
+    width: 432px;
+    height: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 60px;
+  }
+  .block-description {
+    padding: 159px 0 0 35px;
+  }
+}
+.select {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.form-select {
+  margin-right: 20px;
+  border-radius: 5px;
 }
 
 .footer-block {

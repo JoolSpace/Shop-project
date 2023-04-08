@@ -33,4 +33,36 @@ input {
   border-bottom: 1px solid $color-gray;
 }
 
+.card {
+  border: none;
+}
 
+.center {
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.card-block {
+  width: 400px;
+  height: 340px;
+}
+
+.card-block:hover {
+  transition: .3s;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(77, 34, 104, 0.4);
+    cursor: pointer;
+}
+
+.head-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.head-title {
+  margin-top: 150px;
+}

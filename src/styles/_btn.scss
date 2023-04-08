@@ -10,3 +10,26 @@
   height: 40px;
   background: linear-gradient(#ff469f, #ff6062);
 }
+
+.btn_fixed {
+  position: fixed;
+  bottom: 2rem;
+  left: 0;
+  margin-left: 15px;
+  padding: 10px 20px;
+  z-index: 10;
+  text-align: center;
+  background-color: $color-pink-dark;
+  border-radius: 15px;
+  color: $color-white;
+  border: none;
+  font-size: 12px;
+}
+
+.btn_fixed:hover {
+  cursor: pointer;
+  background: $color-pink;
+  transition: .3s;
+  box-shadow: 0 5px 10px rgba(77, 34, 104, 0.4);
+  transform: translateY(-3px);
+}
