@@ -47,6 +47,13 @@
     &-list {
       padding: 5px 5px 5px 0;
     }
-  }
+    &-list:hover {
+      cursor: pointer;
+      animation: bounce 1s;
+    }
+    }
+
+    
+  
     
 
